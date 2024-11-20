@@ -134,9 +134,26 @@ background-color: black;
 .iphone{
     background-color: black;
     border: 2px solid black;
-    height: 750px;
-    width: 350px;
+    height: 695px;
+    width: 370px;
     border-radius: 40px;
+}
+.iphone .iphone-innerscreen{
+    background-color: silver;
+    height: 680px;
+    width: 355px;
+    border-radius: 40px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.iphone-camera{
+    background-color: black;
+    height: 10px;
+    width:150px;
+    border: 2px solid black;
+    padding-top: 30px;
+    border-radius: 0px 0px 12px 12px;
+    margin-left: 100px;
 }
 .model{
     padding: 20px;
