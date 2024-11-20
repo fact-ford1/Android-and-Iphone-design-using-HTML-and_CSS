@@ -1,0 +1,146 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+body{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 60px;
+    margin: 30px;
+}
+h1{
+    margin-left: 100px;
+    border: 2px solid black;
+    margin: 20px;
+}
+
+.android{
+    background-color: black;
+border: 2px solid black;
+height: 750px;
+width: 350px;
+border-radius: 40px;
+/* margin-left: 200px; */
+}
+.camera{
+    height: 20px;
+    width: 20px;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin-left: 160px;
+    margin-top: 10px;
+    background-color: black;
+    z-index: 2;
+    position: relative;
+}
+img{
+    height: 39px;
+    width: 39px;
+}
+.android-searchbar{
+    border: 2px solid black;
+    height: 30px;
+    width: 320px;
+    border-radius: 5px;
+    margin-left: 9px;
+    margin-top: 10px;
+    font-size: 17px;
+    padding-left: 5px;
+    padding-top: 2px;
+    background-color: rgb(235, 235, 235);
+    z-index: 2;
+}
+.innerscreen{
+    height: 740px;
+    width: 340px;
+    border: 2px solid black;
+    border-radius: 40px;
+    margin-left: 3.5px;
+    margin-top: 2.8px;
+    background-color: white;
+    background-image: url(img/WhatsApp\ Image\ 2024-11-20\ at\ 00.08.33_28ad3178.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    opacity: 0.7;
+}
+.innerscreen::before{
+    content: "";
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 1;
+
+}
+.icon-set{
+    position: relative;
+    margin-top: 50px;
+    z-index: 2;
+}
+.icons{
+    /* border: 1px solid black; */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    justify-content: center;
+    margin-left: 25px;
+    /* margin-top: 160px; */
+}
+.icon-set{
+    overflow-y: scroll;
+    height: 590px;
+
+}
+.icon-set::-webkit-scrollbar{
+    display: none;
+}
+.icons-set-2{margin-top: 40px;
+}
+.icons-set-3{
+    margin-top: 25px;
+}
+.icons-set-4{
+    margin-top:30px;
+}
+.icons-set-5{
+margin-top: 30px;
+}
+.icons-set-6{
+margin-top: 15px;
+}
+.icons-set-7{
+margin-top: 30px;
+}
+.icon{
+border: 1px solid black;
+height: 40px;
+width: 40px;
+border-radius: 8px;
+background-color: black;
+
+}
+.icon1{
+    background-color: aliceblue;
+}
+.icon5{
+    background-color: black;
+    border-radius: 
+}
+.icon5>img{
+    border-radius: 20px;
+}
+.iphone{
+    background-color: black;
+    border: 2px solid black;
+    height: 750px;
+    width: 350px;
+    border-radius: 40px;
+}
+.model{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    align-items: center;
+    justify-content: center;
+}
