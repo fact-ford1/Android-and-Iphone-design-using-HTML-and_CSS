@@ -3,6 +3,22 @@
     margin: 0;
     padding:0;
 }
+
+@keyframes rotate3d {
+    0%{
+        transform: rotateX(45deg) rotateY(45deg);
+    }
+    100%{
+        transform: rotateX(45deg) rotateY(45deg);
+    }
+    100%{
+        transform: rotateX(-45deg) rotateY(-45deg);
+    }
+    0%{
+        transform: rotateX(45deg) rotateY(45deg);
+    }
+}
+
 body{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -21,12 +37,21 @@ h1{
     height: 750px;
     width: 350px;
     border-radius: 40px;
+    transform: rotateX(30deg) rotateY(30deg);
+    box-shadow: 30px 30px 40px 0px rgba(0, 0, 0,0.9);
+
+    animation: rotate3d 5s infinite;
 /* margin-left: 200px; */
 }
 .android:hover{
     box-shadow: 10px 10px 10px 10px rgba(0, 0, 0,0.9);
-    /* transform: rotateZ(45deg); */
+    transform: rotateX(0deg) rotateY(0deg);
+    animation: none;
+    
 }
+
+
+
 .camera{
     height: 20px;
     width: 20px;
@@ -130,7 +155,7 @@ background-color: black;
 
 .icon5{
     background-color: black;
-    border-radius: 
+    
 }
 .icon5>img{
     border-radius: 20px;
@@ -190,6 +215,7 @@ background-color: black;
 }
 .icon8{
     background-color:white ;
+    border-color: white;
 }
 .icon8 img{
     height: 38px;
@@ -295,6 +321,7 @@ background-color: black;
 }
 .icon41{
     background-image:linear-gradient(to right,white,rgb(209, 96, 4));
+    border-color: rgb(240, 223, 209);
 }
 /* .icon42{
     background-image:radial-gradient(45deg,yellow, rgb(0, 0, 0));
