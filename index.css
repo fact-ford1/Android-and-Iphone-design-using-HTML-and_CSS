@@ -23,6 +23,10 @@ width: 350px;
 border-radius: 40px;
 /* margin-left: 200px; */
 }
+.android:hover{
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0,0.9);
+    /* transform: rotateZ(45deg); */
+}
 .camera{
     height: 20px;
     width: 20px;
@@ -270,7 +274,55 @@ background-color: black;
     background-image: linear-gradient(45deg,gold,white);
     border-color: gold;
 }
-.icon21, .icon22, .icon25, .icon27{
+.icon21, .icon22, .icon25, .icon27,.icon24, .icon29, .icon31, .icon32, .icon33, .icon35, .icon36, .icon37, .icon44{
     background-color: white;
     border-color: white;
+}
+.icon23{
+    background-color: silver;
+    border-color: silver;
+}
+.icon23 img{
+    display: flex;
+    flex-direction: column;
+    height: 32px;
+    padding-top: 1px;
+   
+}
+.icon28{
+    background-color: #6c4cf9;
+    border-color: #6c4cf9;
+}
+.icon30{
+    background-color: #7ac70c;
+    border-color: #7ac70c;
+}
+.icon31,.icon32 img{
+    margin-top: 5px;
+    width: 39px;
+    height: 30px;
+}
+.icon34 {
+    background-color: #943bae;
+    border-color: #943bae;
+}
+.icon38{
+    background-image:linear-gradient(#63056f, #630303);
+}
+.icon39{
+    background-color: #317ec6e1;
+    border-color:#317ec6e1 ;
+}
+.icon40{
+    background-color: #ede7ac;
+}
+.icon41{
+    background-image:linear-gradient(to right,white,rgb(209, 96, 4));
+}
+/* .icon42{
+    background-image:radial-gradient(45deg,yellow, rgb(0, 0, 0));
+} */
+.icon42 img{
+    height: 26px;
+    margin-top: 5px;
 }
