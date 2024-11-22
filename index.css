@@ -305,6 +305,8 @@ background-color: black;
 }
 
 
+
+
 /* iphone model */
 .iphone{
     background-color: black;
@@ -314,7 +316,7 @@ background-color: black;
     border-radius: 40px;
 }
 .iphone .iphone-innerscreen{
-    background-color: silver;
+    background-color: #c0c0c0;
     height: 680px;
     width: 355px;
     border-radius: 40px;
@@ -339,7 +341,7 @@ background-color: black;
     justify-content: space-around;
     align-items: center;
     align-content: center;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     padding: 10px;
     margin-top: 10px;
 }
@@ -348,5 +350,48 @@ border: 1px solid black;
 height: 120px;
 width: 120px;
 border-radius: 10px;
-al
+background-image: url(img/IMG-20241122-WA0004.jpg);
+background-size: cover;
+}
+
+.middle-box{
+    padding: 20px;
+    background-color: aliceblue;
+    /* border: 1px solid black; */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+    justify-self: center;
+    align-items: center;
+}
+.middle-boxes{
+    border: 1px solid black;
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+}
+.lower-bar{
+    backdrop-filter: blur(10px);
+    /* filter: blur(10px); */
+    background: rgba(255, 255, 255, 0.3);
+    border: 1px solid black;
+    width: 330px;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    justify-self: center;
+    border-radius: 20px;
+    margin-top: 100px;
+    
+    
+}
+.smaller-boxes{
+    z-index: 1;
+    border: 1px solid black;
+    height: 40px;
+    width: 40px;
+    border-radius: 8px;
+    color: black;
+
 }
