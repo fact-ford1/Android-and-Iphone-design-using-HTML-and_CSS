@@ -17,10 +17,10 @@ h1{
 
 .android{
     background-color: black;
-border: 2px solid black;
-height: 750px;
-width: 350px;
-border-radius: 40px;
+    border: 2px solid black;
+    height: 750px;
+    width: 350px;
+    border-radius: 40px;
 /* margin-left: 200px; */
 }
 .android:hover{
@@ -64,7 +64,7 @@ img{
     margin-left: 3.5px;
     margin-top: 2.8px;
     background-color: white;
-    background-image: url(img/WhatsApp\ Image\ 2024-11-20\ at\ 00.08.33_28ad3178.jpg);
+    background-image: url(img/IMG-20241122-WA0001.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -135,30 +135,7 @@ background-color: black;
 .icon5>img{
     border-radius: 20px;
 }
-.iphone{
-    background-color: black;
-    border: 2px solid black;
-    height: 695px;
-    width: 370px;
-    border-radius: 40px;
-}
-.iphone .iphone-innerscreen{
-    background-color: silver;
-    height: 680px;
-    width: 355px;
-    border-radius: 40px;
-    margin-left: 5px;
-    margin-top: 5px;
-}
-.iphone-camera{
-    background-color: black;
-    height: 10px;
-    width:150px;
-    border: 2px solid black;
-    padding-top: 30px;
-    border-radius: 0px 0px 12px 12px;
-    margin-left: 100px;
-}
+
 .model{
     padding: 20px;
     display: flex;
@@ -325,4 +302,51 @@ background-color: black;
 .icon42 img{
     height: 26px;
     margin-top: 5px;
+}
+
+
+/* iphone model */
+.iphone{
+    background-color: black;
+    border: 2px solid black;
+    height: 695px;
+    width: 370px;
+    border-radius: 40px;
+}
+.iphone .iphone-innerscreen{
+    background-color: silver;
+    height: 680px;
+    width: 355px;
+    border-radius: 40px;
+    margin-left: 5px;
+    margin-top: 5px;
+    background-image: url(img/IMG-20241122-WA0003.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.iphone-camera{
+    background-color: black;
+    height: 10px;
+    width:150px;
+    border: 2px solid black;
+    padding-top: 30px;
+    border-radius: 0px 0px 12px 12px;
+    margin-left: 100px;
+}
+.big-box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    border: 1px solid black;
+    padding: 10px;
+    margin-top: 10px;
+}
+.big-box1{
+border: 1px solid black;
+height: 120px;
+width: 120px;
+border-radius: 10px;
+al
 }
