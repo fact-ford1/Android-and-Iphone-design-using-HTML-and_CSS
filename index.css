@@ -52,7 +52,7 @@ h1{
     transform: rotateX(30deg) rotateY(30deg);
     box-shadow: 30px 30px 40px 0px rgba(0, 0, 0,0.9);
 
-    animation: rotate3d 50s infinite;
+    animation: rotate3d 20s infinite;
 /* margin-left: 200px; */
 }
 .android:hover{
@@ -177,7 +177,7 @@ background-color: black;
     padding: 20px;
     display: flex;
     flex-direction: column;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     align-items: center;
     justify-content: center;
 }
@@ -353,7 +353,7 @@ background-color: black;
     height: 695px;
     width: 370px;
     border-radius: 40px;
-    animation: rotate3d 50s infinite;
+    animation: rotate3d 20s infinite;
     box-shadow:30px 30px 40px 0px rgba(0, 0, 0,0.9);;
 }
 .iphone:hover{
