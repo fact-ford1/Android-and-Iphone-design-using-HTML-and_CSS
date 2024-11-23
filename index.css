@@ -4,6 +4,7 @@
     padding:0;
 }
 
+
 @keyframes rotate3d {
     0%{
         transform: rotateX(45deg) rotateY(45deg);
@@ -25,10 +26,21 @@ body{
     column-gap: 60px;
     margin: 30px;
 }
-h1{
+.label{
     margin-left: 100px;
-    border: 2px solid black;
+    border: 2px solid rgba(168, 160, 160, 0.286);
     margin: 20px;
+    font-size: 40px;
+    border-radius: 20px;
+    /* filter: blur(5px); */
+    backdrop-filter: blur(5px);
+    background-color: rgba(168, 160, 160, 0.286);
+    box-shadow: 10px 30px 25px 0px rgba(0, 0, 0,0.9);
+}
+h1{
+    filter: blur(0);
+    z-index: 2;
+    position: relative;
 }
 
 .android{
@@ -341,6 +353,11 @@ background-color: black;
     height: 695px;
     width: 370px;
     border-radius: 40px;
+    animation: rotate3d 50s infinite;
+    box-shadow:30px 30px 40px 0px rgba(0, 0, 0,0.9);;
+}
+.iphone:hover{
+animation: none;
 }
 .iphone .iphone-innerscreen{
     background-color: #c0c0c0;
@@ -468,21 +485,32 @@ background-size: cover;
     height: 38px;
     width: 38px;
 }
+.middle-boxes11{
+    background-color: white;
+}
+.middle-boxes11 img{
+    height: 38px;
+    width: 38px;
+}
+.middle-boxes12{
+    background-color: black;
+}
+.middle-boxes13{
+    background-color: white;
+    border-color: white;
+}
+.middle-boxes13 img{
+    height: 38px;
+    width: 38px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-.middle-boxes14 {
+.middle-boxes14, .middle-boxes15 {
     background-color: rgb(0, 0, 0);
 
+}
+.middle-boxes16{
+    background-color: #0d88ec;
+    border-color: #0d88ec;
 }
 
 .lower-bar{
