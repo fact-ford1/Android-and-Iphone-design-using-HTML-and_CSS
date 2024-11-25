@@ -360,6 +360,8 @@ background-color: black;
 animation: none;
 }
 .iphone .iphone-innerscreen{
+    padding-top: 10px;
+    display: flex;flex-direction: column;
     background-color: #c0c0c0;
     height: 680px;
     width: 355px;
@@ -377,8 +379,10 @@ animation: none;
     width:150px;
     border: 2px solid black;
     padding-top: 30px;
-    border-radius: 0px 0px 12px 12px;
+    border-radius: 15px 15px 15px 15px;
     margin-left: 100px;
+    margin-top:px;
+    justify-self: start;
 }
 .big-box{
     display: flex;
@@ -523,10 +527,10 @@ background-size: cover;
     height: 60px;
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-self: center;
     justify-self: center;
     border-radius: 20px;
-    margin-top: 70px;
+    margin-top: 60px;
     
     
 }
@@ -537,6 +541,8 @@ background-size: cover;
     width: 40px;
     border-radius: 8px;
     color: black;
+    /* align-items: center; */
+    align-self: center;
 
 }
 .smaller-boxes-1{
